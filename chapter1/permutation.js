@@ -1,5 +1,5 @@
+// Question Two
 // given two strings, write a method to decide if one is a permutation of the other 
-
 
 const permutation = (str1, str2) => {
     const map = new Map ()
