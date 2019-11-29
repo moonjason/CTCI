@@ -32,4 +32,4 @@ const uniqueCheck2 = (str) => {
     return true;
 }
 
-console.log(uniqueCheck2('123aa'))
+console.log(uniqueCheck2('abcdfe'));
