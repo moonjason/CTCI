@@ -25,9 +25,7 @@ const oneAway = (str1, str2) => {
             }
         }
     })
-    console.log(obj)
-    console.log(obj.keys)
-    return (obj.length <= 1 ? true : false ) 
+    return (Object.keys(obj).length <= 1 ? true : false ) 
 }
 
-console.log(oneAway('pale', 'bale'));
+console.log(oneAway('pale', 'bake'));
